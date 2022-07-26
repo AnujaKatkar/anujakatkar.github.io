@@ -191,7 +191,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     align-items: center;
     justify-content: center;
     position:relative;
-    background:url(../images/about/background.jpeg)no-repeat;
+    background:url(../images/about/welcome-banner.jpg)no-repeat;
     background-size:cover;
     background-position: center;
     height:890px;
@@ -256,7 +256,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 }
 .single-about-txt p {
     font-size: 16px;
-    color: #999fb3;
+    color: #454a5a;
     padding: 35px 0 43px;
     border-bottom: 1px solid #999fb3;
 }
@@ -370,8 +370,14 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 /*-------------------------------------
         6.  Skills
 --------------------------------------*/
-.skills {
+/* .skills {
     
+} */
+.card{
+margin-bottom: 1.875rem;
+border: none;
+border-radius: 0;
+box-shadow: 0 10px 40px 0 rgb(62 57 107 / 7%), 0 2px 9px 0 rgb(62 57 107 / 6%);
 }
 .skill-content{padding: 50px 0 80px;}
 .single-skill-content{padding-top: 100px;}
@@ -382,6 +388,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     padding-bottom: 50px;
     border-bottom: 1px solid #e5ebf2;
 }
+/*
 .single-progress-txt {
     display: flex;
 }
@@ -434,7 +441,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
    bottom: -1px;
    transform: translateX(-50%);
    margin-left: 0;
-}
+} */
 
 /*-------------------------------------
         7. Experience
